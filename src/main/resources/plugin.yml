@@ -1,0 +1,9 @@
+name: WGItemsRestrict
+main: org.mlp.plugins.wgitemsrestrict.WGItemsRestrict
+version: 0.0.5
+commands:
+   wgitems:
+      description: Realoads config
+      usage: /<command> reload
+      permission: wgitemsrestrict
+      permission-message: You don't have permission
